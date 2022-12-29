@@ -1,0 +1,26 @@
+/* @charset  {
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+  }
+
+  body {
+    background: #fafafa;
+    color: #333;
+  }
+
+  button {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+  }
+}
